@@ -8,6 +8,45 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="backend.php" method="post"></form>
+
+	<label for="name">Name</label>
+	<input type="text" id="name" required>
+	<br><br>
+
+	<label for="email">Email</label>
+	<input type="email" name="myemail" id="email" required>
+	<br><br>
+
+	<p>Gender</p>
+	<label for="male">Male</label>
+	<input type="radio" name="gender" id="male" required>
+	<label for="female">Female</label>
+	<input type="radio" name="gender" id="female" required>
+	<br><br>
+
+	<label for="cars">CarBrands</label>
+	<select name="CarBrands" id="cars">
+		<option value="BMW">BMW</option>
+		<option value="Audi">Audi</option>
+		<option value="Mercedez">Mercedez</option>
+
+	</select>
+	<br><br>
+	<label for="age">Age</label>
+	<input type="text" id="age" required>
+	<br><br>
+
+	<label for="dob">DOB</label>
+	<input type="text" name="" id="dob" required>
+	<br><br>
+
+	<label for="password">Password</label>
+	<input type="password" name="" id="password" required>
+	<br><br>
+
+	<button type="submit" id="submit">Submit</button>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
